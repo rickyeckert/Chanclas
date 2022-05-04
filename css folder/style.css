@@ -1,10 +1,48 @@
 /** Body Overview **/
 
+/** Font Copy & Pastes 
+font-family: 'Bebas Neue', cursive;
+font-family: 'Merriweather', serif; **/
 
+body {
+    margin: 0;
+}
 
 /** NavBar Styles **/
 
+ul.navbar {
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: #aef4cb;
+}
 
+li.navitem {
+    float: left;
+}
+
+a.navitem {
+    display: block;
+    color: #37444d;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+a.navitem:hover {
+    background-color: #C547DC;
+    color: #ffffff;
+}
+
+.navlogo {
+    height: 70px;
+    float: right;
+}
 
 /** Footer Styles **/
 
