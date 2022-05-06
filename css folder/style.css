@@ -4,14 +4,19 @@
 font-family: 'Bebas Neue', cursive;
 font-family: 'Merriweather', serif; **/
 
-body {
+html, body {
     margin: 0;
+    width: 100%
+}
+
+* {
+    box-sizing: border-box;
 }
 
 /** NavBar Styles **/
 
 ul.navbar {
-    position: fixed;
+    position: sticky;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -71,10 +76,12 @@ a.navitem:hover {
 /** Home Page **/
 
 header {
-    clear: both;
     width: 100%;
     height: 400px;
     background-color: #aef4cb;
+}
+.hero {
+    text-align: center;
 }
 
 .lachancla-yt {
@@ -94,15 +101,50 @@ header {
 /** Contact Page **/
 
 .contact {
-    width: 100%;
-    height: 1200px;
+    display: block;
+    height: 1000px;
     background-color: #303030;
     margin: 15px;
+    padding : 30px;
+}
+
+#notify {
+    text-align: center;
 }
 
 .container {
+    color: white;
+    background-color: #696969;
+    padding: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #aef4cb;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #C547DC;
+    color: #ffffff;
+}
+
+input[type=checkbox]:after {
+    background-color: #aef4cb;
 }
 
 .dopeaf {
     color: #ffffff;
+    display: hidden;
 }
