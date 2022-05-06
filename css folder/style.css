@@ -18,6 +18,8 @@ ul.navbar {
     overflow: hidden;
     width: 100%;
     background-color: #aef4cb;
+    top: 0;
+    border-bottom: 1px, solid, #000000;
 }
 
 li.navitem {
@@ -54,11 +56,30 @@ a.navitem:hover {
 
 /** Footer Styles **/
 
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #696969;
+    bottom: 0;
+    color: #ffffff;
+}
 
+.socials {
+    list-style-type: none;
+}
 
 /** Home Page **/
 
+.hero {
+    clear: both;
+    width: 100%;
+    height: 400px;
+    background-color: #aef4cb;
+}
 
+.homesec {
+    padding: 20px 40px;
+}
 
 /** About Page **/
 
