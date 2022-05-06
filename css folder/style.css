@@ -70,11 +70,17 @@ a.navitem:hover {
 
 /** Home Page **/
 
-.hero {
+header {
     clear: both;
     width: 100%;
     height: 400px;
     background-color: #aef4cb;
+}
+
+.lachancla-yt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .homesec {
