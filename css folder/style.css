@@ -2,7 +2,8 @@
 
 /** Font Copy & Pastes 
 font-family: 'Bebas Neue', cursive;
-font-family: 'Merriweather', serif; **/
+font-family: 'Merriweather', serif;
+font-family: 'Noticia Text', serif; **/
 
 html, body {
     margin: 0;
@@ -164,19 +165,13 @@ footer {
 
 /** Home Page **/
 
-header {
-    width: 95%;
+.herohold {
     height: 400px;
     background-color: #A6B8C3;
-    padding-top: 10px;
-    margin: 0px 20px 0px 20px;
+    padding-top: 40px;
+    margin: 60px 30px 160px 30px;
     overflow:auto;
-}
-
-.heroholder {
-    background-color: #696969;
-    display: inline-block;
-    margin: 10px;
+    box-shadow: 1px 1px 10px #000000;
 }
 
 .hero {
@@ -189,19 +184,100 @@ header {
     text-align: center;
 }
 
-.lachancla-yt {
+.homesec {
+    background-color: #A6B8C3;
+    margin: 5px 30px 60px 30px;
+    padding: 30px 40px;
+    overflow: auto;
+    box-shadow: 1px 1px 10px #000000;
+}
+.promo-head {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+.promo1 {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    height: 400px;
+    float: left;
+    clear: left;
 }
 
-.homesec {
-    padding: 20px 40px;
+.promo2 {
+    display: block;
+    height: 400px;
+    float: right;
+    clear: right;
+}
+.promo-text {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    float: right;
+    text-align: right;
+}
+.promo-text2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    float: left;
+    text-align: left;
+}
+
+.button {
+    font-family: 'Bebas Neue', cursive;
+    background-color: #aef4cb;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #C547DC;
+    color: #ffffff;
 }
 
 /** About Page **/
 
+.about-head {
+    display: block;
+    margin: 0px 20px 20px 20px;
+    padding-top: 40px;
+    background-color: #aef4cb;
+    overflow: auto;
+    text-align: center;
+    box-shadow: 1px 1px 10px #000000
+}
 
+.aboutcon {
+    background-color: #696969;
+    margin: 20px;
+    padding: 5px;
+}
+
+.about-body {
+    background-color: #aef4cb;
+    margin: 20px;
+    text-align: center;
+}
+
+div.about-body {padding-bottom: 20px; box-shadow: 5px 5px 10px #000000} 
+
+h1.about-body {font-family: 'Noticia Text', serif; font-size: 50px; padding-top: 40px; padding-bottom: 40px;}
+
+p.about-body {font-family: 'Bebas Neue', cursive; font-size:25px;}
+
+.showcase {
+    background-color: #696969;
+    margin: 0px 20px 40px 20px;
+    padding: 20px 0px 20px 0px;
+}
+
+.lachancla-yt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px #000000
+}
 
 /** Contact Page **/
 
@@ -209,9 +285,10 @@ header {
     display: block;
     height: 1000px;
     background-color: #303030;
-    margin: 200px;
+    margin: 50px 200px 50px 200px;
     padding : 30px;
     font-family: 'Bebas Neue', cursive;
+    box-shadow: 1px 1px 10px #000000;
 
 }
 
@@ -272,9 +349,9 @@ input[type=checkbox]:after {
 }
 
 @media screen and (max-width: 1000px) {
-        .contact {margin:100px;}
+        .contact {margin:50px 100px 50px 100px;}
 }    
 
 @media screen and (max-width: 600px) {
-    .contact {margin:100px 15px 15px 15px;}
+    .contact {margin:50px 15px 15px 15px;}
 }   
