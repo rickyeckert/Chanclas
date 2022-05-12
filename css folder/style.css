@@ -6,7 +6,8 @@ font-family: 'Merriweather', serif; **/
 
 html, body {
     margin: 0;
-    width: 100%
+    width: 100%;
+    background-color: #ffffff;
 }
 
 * {
@@ -164,13 +165,28 @@ footer {
 /** Home Page **/
 
 header {
-    width: 100%;
+    width: 95%;
     height: 400px;
-    background-color: #aef4cb;
+    background-color: #A6B8C3;
+    padding-top: 10px;
+    margin: 0px 20px 0px 20px;
+    overflow:auto;
 }
+
+.heroholder {
+    background-color: #696969;
+    display: inline-block;
+    margin: 10px;
+}
+
 .hero {
     text-align: center;
-    margin-top: 0;
+    margin: 10px;
+}
+
+.slogan {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
 }
 
 .lachancla-yt {
@@ -193,12 +209,15 @@ header {
     display: block;
     height: 1000px;
     background-color: #303030;
-    margin: 15px;
+    margin: 200px;
     padding : 30px;
+    font-family: 'Bebas Neue', cursive;
+
 }
 
 #notify {
     text-align: center;
+    font-size: 45px;
 }
 
 .container {
@@ -215,6 +234,20 @@ input[type=text], select, textarea {
     box-sizing: border-box;
     resize: vertical;
 }
+
+input[type=password], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
 
 input[type=submit] {
     background-color: #aef4cb;
@@ -237,3 +270,11 @@ input[type=checkbox]:after {
     color: #ffffff;
     display: hidden;
 }
+
+@media screen and (max-width: 1000px) {
+        .contact {margin:100px;}
+}    
+
+@media screen and (max-width: 600px) {
+    .contact {margin:100px 15px 15px 15px;}
+}   
