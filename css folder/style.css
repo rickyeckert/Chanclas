@@ -92,22 +92,35 @@ a.navitem:hover {
 
 /** Footer Styles **/
 
-.footer {
+footer {
     width: 100%;
     background-color: #696969;
     bottom: 0;
     color: #ffffff;
-    padding: 5px 20px;
+    padding: 20px 20px;
+    display: inline-block;
 }
 
-.foot-list {
+.footbx {
+    background-color: #ffffff;
+    display: inline-block;
+    width: 100%;
+}
+
+.social-list {
     list-style-type: none;
-    margin-top: 0;
+    margin-top: 20px;
     padding-top: 0;
+    background-color: #ffffff;
+    width: 50%;
+    float: left;
+    display: inline-block;
 }
 
 .headsoc {
     margin: 0px;
+    color: #000000;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .socials {
@@ -131,10 +144,24 @@ a.navitem:hover {
     color: #FF0000;
 }
 
-.fa-stack-2x {width: 0;}
-.fa-stack-1x {width: 0;}
+.more {
+    list-style-type: none;
+    color: #000000;
+    background-color: #ffffff;
+    width: 50%;
+    margin-top: 20px;
+    padding-right: 20px;
+    text-align: right;
+    font-family: 'Bebas Neue', cursive;
+    float: right;
+    display: inline-block;
+}
 
-.fa-stack {width: 0;}
+.explore {
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    color: #000000
+}
 
 /** Home Page **/
 
